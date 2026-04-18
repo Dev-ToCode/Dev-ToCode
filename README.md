@@ -41,8 +41,8 @@
 
 ## 📫 Contato
 
-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gersonluis/)
-- 📧 [Enviar email](mailto:devtocode.dev@gmail.com?subject=Contato%20via%20GitHub)
+- 💼 [Conecte-se comigo no LinkedIn](https://www.linkedin.com/in/gersonluis/)
+- 📧 devtocode.dev@gmail.com 
 
 ---
 
