@@ -14,7 +14,13 @@ const ADMIN_EMAILS = (process.env.ADMIN_EMAILS || "devtocode.dev@gmail.com")
   .split(",")
   .map((email) => email.trim().toLowerCase())
   .filter(Boolean);
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "1209";
+
+
+  const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
+
+if (!ADMIN_PASSWORD) {
+  throw new Error("ADMIN_PASSWORD não foi definida nas variáveis de ambiente.");
+}
 
 const sessions = new Map();
 
