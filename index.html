@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio DevToCode de Luis Soares, desenvolvedor focado em backend, APIs REST e experiencias web funcionais."
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -10,236 +14,364 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap"
       rel="stylesheet"
     />
-    <title>DevToCode</title>
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/sections/header.css" />
+    <link rel="stylesheet" href="css/sections/hero.css" />
+    <link rel="stylesheet" href="css/sections/sobre.css" />
+    <link rel="stylesheet" href="css/sections/skills.css" />
+    <link rel="stylesheet" href="css/sections/projetos.css" />
+    <link rel="stylesheet" href="css/sections/contato.css" />
+
+    <title>DevToCode | Luis Soares</title>
   </head>
 
   <body>
-    <header>
-      <nav>
-        <h2>DevToCode</h2>
-        <span>by Luís Soares</span>
-        <ul>
-          <li><a href="#hero">Início</a></li>
+    <svg class="icon-sprite" aria-hidden="true">
+      <symbol id="icon-linkedin" viewBox="0 0 24 24">
+        <path d="M6.94 8.98H3.96v10.04h2.98V8.98ZM7.16 5.88a1.72 1.72 0 1 0-3.44 0 1.72 1.72 0 0 0 3.44 0Zm12.88 7.38c0-2.78-1.48-4.56-3.9-4.56-1.78 0-2.58.98-3.02 1.66V8.98h-2.86v10.04h2.98v-4.96c0-1.3.24-2.56 1.86-2.56 1.58 0 1.6 1.48 1.6 2.64v4.88h2.98l.36-5.76Z" />
+      </symbol>
+      <symbol id="icon-github" viewBox="0 0 24 24">
+        <path d="M12 3.4a8.7 8.7 0 0 0-2.76 16.95c.44.08.6-.18.6-.42v-1.5c-2.46.54-2.98-1.04-2.98-1.04-.4-1.02-.98-1.3-.98-1.3-.8-.54.06-.52.06-.52.88.06 1.36.92 1.36.92.8 1.36 2.08.96 2.58.74.08-.58.32-.96.58-1.18-1.96-.22-4.02-.98-4.02-4.34 0-.96.34-1.74.9-2.36-.1-.22-.4-1.12.08-2.32 0 0 .74-.24 2.4.9a8.26 8.26 0 0 1 4.36 0c1.66-1.14 2.4-.9 2.4-.9.48 1.2.18 2.1.08 2.32.56.62.9 1.4.9 2.36 0 3.36-2.06 4.1-4.02 4.32.32.28.62.84.62 1.7v2.2c0 .24.16.5.62.42A8.7 8.7 0 0 0 12 3.4Z" />
+      </symbol>
+      <symbol id="icon-instagram" viewBox="0 0 24 24">
+        <path d="M8.1 4.2h7.8a3.9 3.9 0 0 1 3.9 3.9v7.8a3.9 3.9 0 0 1-3.9 3.9H8.1a3.9 3.9 0 0 1-3.9-3.9V8.1a3.9 3.9 0 0 1 3.9-3.9Zm0 1.8A2.1 2.1 0 0 0 6 8.1v7.8A2.1 2.1 0 0 0 8.1 18h7.8a2.1 2.1 0 0 0 2.1-2.1V8.1A2.1 2.1 0 0 0 15.9 6H8.1Zm3.9 2.8a3.2 3.2 0 1 1 0 6.4 3.2 3.2 0 0 1 0-6.4Zm0 1.8a1.4 1.4 0 1 0 0 2.8 1.4 1.4 0 0 0 0-2.8Zm4.02-2.86a.82.82 0 1 1 0 1.64.82.82 0 0 1 0-1.64Z" />
+      </symbol>
+      <symbol id="icon-whatsapp" viewBox="0 0 24 24">
+        <path d="M12.04 4.2a7.7 7.7 0 0 0-6.6 11.66l-.86 3.14 3.22-.84a7.7 7.7 0 1 0 4.24-13.96Zm0 1.72a5.98 5.98 0 1 1 0 11.96 6 6 0 0 1-3.04-.84l-.22-.14-1.9.5.5-1.84-.16-.24a5.98 5.98 0 0 1 4.82-9.4Zm-2.1 2.92c-.12 0-.32.04-.48.22-.16.18-.62.6-.62 1.46s.64 1.7.74 1.82c.1.12 1.26 1.92 3.04 2.7.42.18.76.3 1.02.38.44.14.82.12 1.14.08.34-.06 1.06-.44 1.2-.86.16-.42.16-.78.1-.86-.04-.08-.16-.12-.34-.22l-1.2-.56c-.18-.08-.3-.12-.42.08-.12.18-.48.56-.58.68-.1.12-.22.14-.4.04-.18-.08-.76-.28-1.46-.9-.54-.48-.9-1.08-1-1.26-.1-.18-.02-.28.08-.38.08-.08.18-.22.28-.32.08-.1.12-.18.18-.3.06-.12.04-.22-.02-.32l-.54-1.3c-.14-.32-.28-.28-.4-.28h-.34Z" />
+      </symbol>
+    </svg>
+
+    <header class="site-header">
+      <nav class="container header-nav" aria-label="Navegacao principal">
+        <a class="brand" href="#inicio" aria-label="DevToCode - inicio">
+          <strong>DevToCode</strong>
+          <span>by Luis Soares</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links" id="main-menu">
+          <li><a href="#inicio">Inicio</a></li>
           <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#projetos">Projetos</a></li>
           <li><a href="#skills">Skills</a></li>
+          <li><a href="#projetos">Projetos</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
+
+        <button class="login-button" type="button" data-open-login>Login</button>
       </nav>
     </header>
+
     <main>
-      <section id="hero">
-        <h1>Construindo soluções web que resolvem problemas</h1>
-        <p>
-          Transformando ideias em aplicações web funcionais, pensadas para
-          resolver desafios reais.
-        </p>
-
-        <span> Se o mundo precisa de código, então vamos codar! </span>
-
-        <a href="#projetos">Conheça meus projetos</a>
-      </section>
-
-      <section id="sobre">
-        <p>
-          Durante boa parte da minha carreira, atuei com atendimento ao cliente,
-          lidando com resolução de problemas e experiência do usuário. Esse
-          processo contribuiu para o desenvolvimento do meu raciocínio lógico,
-          pensamento estruturado e a aplicação de boas práticas no
-          desenvolvimento.
-        </p>
-
-        <p>
-          Hoje, estou imerso no desenvolvimento web, criando projetos e
-          aprofundando meus conhecimentos na construção de aplicações
-          funcionais, bem estruturadas e voltadas para resolver problemas reais.
-        </p>
-      </section>
-
-      <section id="skills">
-        <h2>Skills</h2>
-
-        <div class="skills-container">
-          <div class="skill-grupo">
-            <h3>Front-end</h3>
-            <div class="skills-grid">
-              <div class="skill">HTML</div>
-              <div class="skill">CSS</div>
-              <div class="skill">JavaScript</div>
-              <div class="skill">TypeScript</div>
+      <section class="hero-about section-shell" id="inicio">
+        <div class="container hero-about-grid">
+          <div class="hero-content reveal">
+            <p class="eyebrow">Portfolio de desenvolvimento web</p>
+            <h1>Construindo solucoes web que resolvem problemas reais.</h1>
+            <p class="hero-description">
+              Transformando ideias em aplicacoes funcionais, bem estruturadas e
+              pensadas para entregar clareza, performance e utilidade desde o
+              primeiro contato.
+            </p>
+            <p class="impact-line">
+              Se o mundo precisa de codigo, entao vamos codar.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projetos">Conhecer projetos</a>
+              <a class="button button-secondary" href="#contato">Conversar comigo</a>
             </div>
           </div>
 
-          <div class="skill-grupo">
-            <h3>Back-end</h3>
-            <div class="skills-grid">
-              <div class="skill">Node.js</div>
-              <div class="skill">APIs REST</div>
-              <div class="skill">MySQL</div>
+          <aside class="about-panel reveal" id="sobre" aria-labelledby="sobre-title">
+            <div class="startup-visual" aria-hidden="true">
+              <div class="visual-topbar"><span></span><span></span><span></span></div>
+              <div class="visual-grid">
+                <span class="visual-node visual-node-main"></span>
+                <span class="visual-line visual-line-one"></span>
+                <span class="visual-node"></span>
+                <span class="visual-line visual-line-two"></span>
+                <span class="visual-node visual-node-soft"></span>
+              </div>
             </div>
+            <p class="eyebrow">Sobre</p>
+            <h2 id="sobre-title">Do atendimento ao codigo, com foco em solucao.</h2>
+            <p>
+              Durante boa parte da minha carreira, atuei com atendimento ao
+              cliente, resolucao de problemas e experiencia do usuario. Essa
+              base fortaleceu meu raciocinio logico, minha organizacao e minha
+              leitura sobre o que torna uma solucao realmente util.
+            </p>
+            <p>
+              Hoje estou imerso no desenvolvimento web, criando projetos com
+              Node.js, TypeScript, APIs REST e interfaces claras para evoluir
+              como desenvolvedor fullstack.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section-shell skills-section" id="skills">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Stack</p>
+            <h2>Skills</h2>
+            <p>
+              Tecnologias organizadas por area para construir, testar e evoluir
+              produtos digitais com base solida.
+            </p>
           </div>
 
-          <div class="skill-grupo">
-            <h3>Ferramentas</h3>
-            <div class="skills-grid">
-              <div class="skill">Git</div>
-              <div class="skill">GitHub</div>
-              <div class="skill">Postman</div>
-              <div class="skill">Insomnia</div>
-              <div class="skill">VS Code</div>
-            </div>
+          <div class="skills-container">
+            <article class="skill-group reveal">
+              <h3>Front-end</h3>
+              <div class="skills-grid">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">TypeScript</span>
+              </div>
+            </article>
+            <article class="skill-group reveal">
+              <h3>Back-end</h3>
+              <div class="skills-grid">
+                <span class="skill">Node.js</span>
+                <span class="skill">Express</span>
+                <span class="skill">APIs REST</span>
+                <span class="skill">MySQL</span>
+              </div>
+            </article>
+            <article class="skill-group reveal">
+              <h3>Ferramentas</h3>
+              <div class="skills-grid">
+                <span class="skill">Git</span>
+                <span class="skill">GitHub</span>
+                <span class="skill">Postman</span>
+                <span class="skill">Insomnia</span>
+                <span class="skill">VS Code</span>
+              </div>
+            </article>
           </div>
         </div>
       </section>
 
-      <section id="projetos">
-        <h2>Projetos</h2>
-        <div class="projetos-grid">
-          <div class="projeto-card">
-            <h3>Nome do Projeto 1</h3>
-            <p>Descrição breve do projeto.</p>
-
-            <div class="projeto-links">
-              <a href="#" target="_blank" class="botao-primario">Ver projeto</a>
-
-              <a href="#" target="_blank" class="botao-secundario">
-                <img src="assets/icons/github.svg" alt="GitHub" />
-                <span>Ver no GitHub</span>
-              </a>
-            </div>
+      <section class="section-shell projects-section" id="projetos">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Portfolio</p>
+            <h2>Projetos</h2>
+            <p>
+              Uma galeria em evolucao com os cinco projetos principais do portfolio.
+            </p>
           </div>
 
-          <div class="projeto-card">
-            <h3>Nome do Projeto 2</h3>
-            <p>Descrição breve do projeto.</p>
-
-            <div class="projeto-links">
-              <a href="#" target="_blank" class="botao-primario">Ver projeto</a>
-
-              <a href="#" target="_blank" class="botao-secundario">
-                <img src="assets/icons/github.svg" alt="GitHub" />
-                <span>Ver no GitHub</span>
-              </a>
+          <div class="projects-carousel reveal" aria-label="Galeria de projetos">
+            <button class="carousel-control" type="button" data-project-prev aria-label="Projeto anterior">‹</button>
+            <div class="projects-window">
+              <div class="projects-track" data-project-track></div>
             </div>
+            <button class="carousel-control" type="button" data-project-next aria-label="Proximo projeto">›</button>
           </div>
 
-          <div class="projeto-card">
-            <h3>Nome do Projeto 3</h3>
-            <p>Descrição breve do projeto.</p>
+          <div class="project-dots" data-project-dots aria-label="Selecionar projeto"></div>
 
-            <div class="projeto-links">
-              <a href="#" target="_blank" class="botao-primario">Ver projeto</a>
-
-              <a href="#" target="_blank" class="botao-secundario">
-                <img src="assets/icons/github.svg" alt="GitHub" />
-                <span>Ver no GitHub</span>
-              </a>
-            </div>
-          </div>
-
-          <div class="projeto-card">
-            <h3>Nome do Projeto 4</h3>
-            <p>Descrição breve do projeto.</p>
-
-            <div class="projeto-links">
-              <a href="#" target="_blank" class="botao-primario">Ver projeto</a>
-
-              <a href="#" target="_blank" class="botao-secundario">
-                <img src="assets/icons/github.svg" alt="GitHub" />
-                <span>Ver no GitHub</span>
-              </a>
-            </div>
-          </div>
-
-          <div class="projeto-card">
-            <h3>Nome do Projeto 5</h3>
-            <p>Descrição breve do projeto.</p>
-
-            <div class="projeto-links">
-              <a href="#" target="_blank" class="botao-primario">Ver projeto</a>
-
-              <a href="#" target="_blank" class="botao-secundario">
-                <img src="assets/icons/github.svg" alt="GitHub" />
-                <span>Ver no GitHub</span>
-              </a>
-            </div>
+          <div class="projects-more reveal">
+            <a class="button button-secondary" href="https://github.com/Dev-ToCode" target="_blank" rel="noreferrer" data-track-social="GitHub">
+              Ver todos os projetos
+            </a>
           </div>
         </div>
-        <a href="/projetos.html" class="btn-ver-todos">Ver todos os projetos</a>
       </section>
 
-      <section id="contato">
-        <h2>Contato</h2>
-
-        <p>Transformando ideias em soluções através do código.</p>
-
-        <div class="contato-container">
-          <!-- Lado esquerdo -->
-          <div class="contato-info">
-            <h3>Entre em contato comigo</h3>
-
-            <div class="contato-links">
-              <a href="https://wa.me/SEUNUMERO" target="_blank">WhatsApp</a>
-              <a href="#" target="_blank">LinkedIn</a>
-              <a href="#" target="_blank">GitHub</a>
-              <a href="#" target="_blank">Instagram</a>
-              <a href="mailto:seuemail@email.com">Email</a>
-            </div>
+      <section class="section-shell contact-section" id="contato">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Contato</p>
+            <h2>Vamos construir algo juntos?</h2>
+            <p>
+              Conexoes, oportunidades e projetos onde o codigo precisa resolver
+              um problema de verdade.
+            </p>
           </div>
 
-          <!-- Lado direito -->
-          <div class="contato-form">
-            <form id="form-contato">
-              <input type="text" name="nome" placeholder="Seu nome" required />
+          <div class="contact-grid">
+            <div class="contact-info reveal">
+              <h3>Entre em contato comigo</h3>
+              <p>
+                Transformando ideias em solucoes atraves de codigo, estudo
+                constante e atencao a experiencia de quem usa.
+              </p>
 
-              <input
-                type="email"
-                name="email"
-                placeholder="Seu email"
-                required
-              />
+              <div class="contact-links" aria-label="Links de contato">
+                <a href="mailto:devtocode.dev@gmail.com" data-track-social="Email">
+                  <span class="contact-icon">@</span>
+                  <span>devtocode.dev@gmail.com</span>
+                </a>
+                <a href="https://www.linkedin.com/in/gersonluis/" target="_blank" rel="noreferrer" data-track-social="LinkedIn">
+                  <svg class="social-icon"><use href="#icon-linkedin"></use></svg>
+                  <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/Dev-ToCode" target="_blank" rel="noreferrer" data-track-social="GitHub">
+                  <svg class="social-icon"><use href="#icon-github"></use></svg>
+                  <span>GitHub</span>
+                </a>
+                <a href="https://www.instagram.com/dev.tocode/" target="_blank" rel="noreferrer" data-track-social="Instagram">
+                  <svg class="social-icon"><use href="#icon-instagram"></use></svg>
+                  <span>Instagram</span>
+                </a>
+                <a href="https://wa.me/5571992044744" target="_blank" rel="noreferrer" data-track-social="WhatsApp">
+                  <svg class="social-icon"><use href="#icon-whatsapp"></use></svg>
+                  <span>WhatsApp</span>
+                </a>
+              </div>
+            </div>
 
-              <textarea
-                name="mensagem"
-                placeholder="Sua mensagem"
-                required
-              ></textarea>
-
-              <button type="submit">Enviar mensagem</button>
+            <form class="contact-form reveal" id="form-contato">
+              <label>
+                Nome
+                <input type="text" name="nome" placeholder="Seu nome" required />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="seuemail@email.com" required />
+              </label>
+              <label>
+                Mensagem
+                <textarea name="mensagem" placeholder="Descreva aqui a sua mensagem" required></textarea>
+              </label>
+              <button class="button button-primary" type="submit">Enviar mensagem</button>
+              <p id="mensagem-status" role="status"></p>
             </form>
-
-            <!-- feedback pro usuário -->
-            <p id="mensagem-status"></p>
           </div>
         </div>
       </section>
     </main>
-    <footer>
-      <div class="footer-container">
-        <!-- Navegação -->
-        <div class="footer-nav">
-          <a href="#hero">Início</a>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <a class="brand" href="#inicio">
+          <strong>DevToCode</strong>
+          <span>by Luis Soares</span>
+        </a>
+        <nav class="footer-links" aria-label="Navegacao complementar">
+          <a href="#inicio">Inicio</a>
           <a href="#projetos">Projetos</a>
+          <a href="#skills">Skills</a>
           <a href="#contato">Contato</a>
+        </nav>
+        <div class="footer-links footer-socials" aria-label="Redes sociais">
+          <a href="https://www.linkedin.com/in/gersonluis/" target="_blank" rel="noreferrer" data-track-social="LinkedIn">
+            <svg class="footer-social-icon"><use href="#icon-linkedin"></use></svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/Dev-ToCode" target="_blank" rel="noreferrer" data-track-social="GitHub">
+            <svg class="footer-social-icon"><use href="#icon-github"></use></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.instagram.com/dev.tocode/" target="_blank" rel="noreferrer" data-track-social="Instagram">
+            <svg class="footer-social-icon"><use href="#icon-instagram"></use></svg>
+            <span>Instagram</span>
+          </a>
+          <a href="https://wa.me/5571992044744" target="_blank" rel="noreferrer" data-track-social="WhatsApp">
+            <svg class="footer-social-icon"><use href="#icon-whatsapp"></use></svg>
+            <span>WhatsApp</span>
+          </a>
         </div>
-
-        <!-- Contatos -->
-        <div class="footer-links">
-          <a href="https://wa.me/SEUNUMERO" target="_blank">WhatsApp</a>
-          <a href="#" target="_blank">LinkedIn</a>
-          <a href="#" target="_blank">GitHub</a>
-          <a href="#" target="_blank">Instagram</a>
-          <a href="mailto:seuemail@email.com">Email</a>
-        </div>
-
-        <!-- Marca -->
-        <p>
-          © 2026 DevToCode by
-          <a href="https://www.linkedin.com/in/gersonluis/" target="_blank"
-            >Luís Soares</a
-          >
-        </p>
+        <p class="copyright">© DevToCode 2026</p>
       </div>
     </footer>
+
+    <div class="auth-modal" data-auth-modal hidden>
+      <div class="auth-card" role="dialog" aria-modal="true" aria-labelledby="login-title">
+        <button class="modal-close" type="button" data-close-login aria-label="Fechar login">×</button>
+        <p class="eyebrow">Admin</p>
+        <h2 id="login-title">Acessar painel</h2>
+        <form class="login-form" data-login-form>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="seu email" required />
+          </label>
+          <label>
+            Senha
+            <input type="password" name="password" placeholder="sua senha" required />
+          </label>
+          <button class="button button-primary" type="submit">Entrar</button>
+          <p class="form-status" data-login-status role="status"></p>
+        </form>
+      </div>
+    </div>
+
+    <section class="admin-panel" data-admin-panel hidden>
+      <div class="admin-shell">
+        <div class="admin-header">
+          <div>
+            <p class="eyebrow">Painel DevToCode</p>
+            <h2>Administracao do portfolio</h2>
+          </div>
+          <button class="button button-secondary" type="button" data-admin-logout>Sair</button>
+        </div>
+
+        <div class="metrics-grid">
+          <article><span data-metric="visits">0</span><p>Acessos ao portfolio</p></article>
+          <article><span data-metric="socialClicks">0</span><p>Cliques em redes</p></article>
+          <article><span data-metric="messages">0</span><p>Mensagens enviadas</p></article>
+          <article><span data-metric="projects">0/5</span><p>Projetos publicados</p></article>
+        </div>
+
+        <div class="admin-grid">
+          <form class="project-form" data-project-form>
+            <h3>Postar projeto</h3>
+            <input type="hidden" name="id" />
+            <label>
+              Nome do projeto
+              <input type="text" name="title" placeholder="Ex: API de agendamentos" required />
+            </label>
+            <label>
+              Subtitulo
+              <input type="text" name="subtitle" placeholder="Ex: Backend para servicos locais" required />
+            </label>
+            <label>
+              Descricao
+              <textarea name="description" placeholder="Explique o problema resolvido e a solucao criada" required></textarea>
+            </label>
+            <label>
+              Link do projeto
+              <input type="url" name="projectUrl" placeholder="https://..." />
+            </label>
+            <label>
+              Link do GitHub
+              <input type="url" name="githubUrl" placeholder="https://github.com/..." />
+            </label>
+            <label>
+              Tecnologia usada
+              <div class="tech-row">
+                <input type="text" name="techInput" placeholder="Ex: Node.js" />
+                <button class="button button-secondary" type="button" data-add-tech>Adicionar</button>
+              </div>
+            </label>
+            <div class="tech-list" data-tech-list></div>
+            <button class="button button-primary" type="submit" data-project-submit>Salvar projeto</button>
+            <button class="button button-secondary" type="button" data-project-cancel hidden>Cancelar edicao</button>
+            <p class="form-status" data-project-status role="status"></p>
+          </form>
+
+          <div class="admin-projects">
+            <div class="admin-projects-header">
+              <h3>Projetos na galeria</h3>
+              <span data-project-count>0 de 5</span>
+            </div>
+            <div class="admin-project-list" data-admin-project-list></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="module" src="js/main.js"></script>
   </body>
 </html>
