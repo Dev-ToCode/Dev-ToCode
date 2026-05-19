@@ -1,4 +1,4 @@
-# 👋 Olá, eu sou o Luis!
+# 👋 Olá, eu sou o Luís!
 
 💻 Desenvolvedor Web Jr, com foco em JavaScript, Node.js e TypeScript.  
 🚀 Desenvolvendo projetos web, APIs REST e soluções práticas para fortalecer minha experiência como dev.  
@@ -47,7 +47,8 @@
 ## 📫 Contato
 
 - 💼 [Conecte-se comigo no LinkedIn](https://www.linkedin.com/in/gersonluis/)
-- 📧 devtocode.dev@gmail.com 
+- 📧 [devtocode.dev@gmail.com](mailto:devtocode.dev@gmail.com)
+- 💬 [WhatsApp: (71) 99204-4744](https://wa.me/5571992044744)
 
 ---
 
