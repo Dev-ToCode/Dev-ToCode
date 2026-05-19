@@ -10,11 +10,14 @@ const DB_PATH = path.join(DATA_DIR, "db.json");
 const MAX_PROJECTS = 5;
 const SESSION_TTL_MS = 1000 * 60 * 60 * 8;
 
-const ADMIN_EMAILS = (process.env.ADMIN_EMAILS || "devtocode.dev@gmail.com")
+const ADMIN_EMAILS = (process.env.ADMIN_EMAILS || "")
   .split(",")
   .map((email) => email.trim().toLowerCase())
   .filter(Boolean);
 
+if (!ADMIN_EMAILS.length) {
+  throw new Error("ADMIN_EMAILS não foi definida nas variáveis de ambiente.");
+}
 
   const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
 
