@@ -1,8 +1,9 @@
 # 👋 Olá, eu sou o Luis!
 
-💻 Desenvolvedor Backend Jr, focado em Node.js e TypeScript.  
-🚀 Construindo APIs REST e evoluindo constantemente através de projetos práticos.  
-🎯 Atualmente focado em backend, com objetivo de evoluir para Fullstack.
+💻 Desenvolvedor Web Jr, com foco em JavaScript, Node.js e TypeScript.  
+🚀 Desenvolvendo projetos web, APIs REST e soluções práticas para fortalecer minha experiência como dev.  
+🎯 Atualmente evoluindo no desenvolvimento web, com objetivo de atuar como Desenvolvedor Fullstack.  
+🌐 Clique [aqui](https://dev-tocode1.onrender.com/) e conheça meu portfólio.
 
 ---
 
