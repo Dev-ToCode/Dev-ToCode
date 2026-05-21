@@ -1,8 +1,9 @@
-# 👋 Olá, eu sou o Luis!
+# 👋 Olá, eu sou o Luís!
 
-💻 Desenvolvedor Backend Jr, focado em Node.js e TypeScript.  
-🚀 Construindo APIs REST e evoluindo constantemente através de projetos práticos.  
-🎯 Atualmente focado em backend, com objetivo de evoluir para Fullstack.
+💻 Desenvolvedor Web Jr, com foco em JavaScript, Node.js e TypeScript.  
+🚀 Desenvolvendo projetos web, APIs REST e soluções práticas para fortalecer minha experiência como dev.  
+🎯 Atualmente evoluindo no desenvolvimento web, com objetivo de atuar como Desenvolvedor Fullstack.  
+🌐 Clique [aqui](https://dev-tocode1.onrender.com/) e conheça meu portfólio.
 
 ---
 
@@ -20,8 +21,12 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ### 🛠️ Ferramentas
+
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Insomnia](https://img.shields.io/badge/Insomnia-4000BF?style=for-the-badge&logo=insomnia&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 ---
 
@@ -42,7 +47,8 @@
 ## 📫 Contato
 
 - 💼 [Conecte-se comigo no LinkedIn](https://www.linkedin.com/in/gersonluis/)
-- 📧 devtocode.dev@gmail.com 
+- 📧 [devtocode.dev@gmail.com](mailto:devtocode.dev@gmail.com)
+- 💬 [WhatsApp: (71) 99204-4744](https://wa.me/5571992044744)
 
 ---
 
