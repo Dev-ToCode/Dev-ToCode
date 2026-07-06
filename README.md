@@ -1,20 +1,26 @@
 # 👋 Olá, eu sou o Luís!
 
-💻 Desenvolvedor Web Jr, com foco em JavaScript, Node.js e TypeScript.  
-🚀 Desenvolvendo projetos web, APIs REST e soluções práticas para fortalecer minha experiência como dev.  
-🎯 Atualmente evoluindo no desenvolvimento web, com objetivo de atuar como Desenvolvedor Fullstack.  
-🌐 Clique [aqui](https://dev-tocode1.onrender.com/) e conheça meu portfólio.
+💻 Desenvolvedor Backend em formação, com foco em **Java**, **Spring Boot** e desenvolvimento de **APIs REST**.
+
+🚀 Desenvolvendo projetos práticos para consolidar conhecimentos em backend, arquitetura de software, bancos de dados e boas práticas de desenvolvimento.
+
+🎯 Buscando minha primeira oportunidade como **Desenvolvedor Backend Java**, contribuindo com soluções escaláveis e evoluindo continuamente no ecossistema Java.
+
+🌐 **Portfólio:** https://dev-tocode1.onrender.com/
 
 ---
 
 ## 🚀 Tecnologias e ferramentas
 
 ### 🧠 Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+<p>
+  <img src="https://skillicons.dev/icons?i=java,spring" />
+</p>
 
+### 🗄️ Banco de Dados
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql,postgresql" />
+</p>
 ### 🌐 Fundamentos Web
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -28,11 +34,31 @@
 ![Insomnia](https://img.shields.io/badge/Insomnia-4000BF?style=for-the-badge&logo=insomnia&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
+## 📚 Atualmente estudando
+
+- Programação Orientada a Objetos (POO)
+- Collections
+- Streams
+- Maven
+- Docker
+- IntelliJ IDEA
+
 ---
 
 ## 📌 Projetos em destaque
 
-🚧 Em construção — novos projetos backend sendo desenvolvidos com foco em APIs REST e integração com banco de dados.
+Em breve você encontrará aqui projetos desenvolvidos durante minha jornada de formação em Java Backend.
+
+Os projetos abordarão temas como:
+
+- ☕ APIs REST com Spring Boot
+- 🗄️ Integração com PostgreSQL
+- 🔐 Autenticação com Spring Security e JWT
+- 🐳 Containerização com Docker
+- 🧪 Testes unitários com JUnit e Mockito
+- 📬 Mensageria com RabbitMQ e Kafka
+- ☁️ Deploy e serviços na AWS
+- 🏗️ Arquitetura em Camadas e Clean Architecture
 
 ---
 
