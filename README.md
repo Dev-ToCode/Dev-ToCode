@@ -39,6 +39,8 @@
 
 
 
+
+
 ## 📈 Minha Jornada Java Backend
 
 Atualmente estou seguindo uma trilha estruturada de estudos para consolidar minha base em Java e evoluir até o desenvolvimento de aplicações backend robustas utilizando o ecossistema Spring.
