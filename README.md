@@ -48,7 +48,7 @@ Atualmente estou seguindo uma trilha estruturada de estudos para consolidar minh
 | Etapa | Status |
 |-------|--------|
 | ✅ Lógica de Programação | Concluído |
-| ✅ Java Fundamentos | Concluído (em revisão para consolidação) |
+| ✅ Java Fundamentos | Concluído  |
 | 🔄 Programação Orientada a Objetos | Em andamento |
 | 📅 Collections Framework | Próxima etapa |
 | 📅 Streams API | Próxima etapa |
