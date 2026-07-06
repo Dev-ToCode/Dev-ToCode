@@ -2,7 +2,7 @@
 
 💻 Desenvolvedor Backend em formação, com foco em **Java**, **Spring Boot** e desenvolvimento de **APIs REST**.
 
-🚀 Desenvolvendo projetos práticos para consolidar conhecimentos em backend, arquitetura de software, bancos de dados e boas práticas de desenvolvimento.
+🚀 Construindo projetos práticos para aplicar conceitos de Java, Spring Boot, APIs REST e arquitetura de software em cenários reais.
 
 🎯 Buscando minha primeira oportunidade como **Desenvolvedor Backend Java**, contribuindo com soluções escaláveis e evoluindo continuamente no ecossistema Java.
 
