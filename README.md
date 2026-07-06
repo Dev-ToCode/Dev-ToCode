@@ -37,14 +37,34 @@
 ![Insomnia](https://img.shields.io/badge/Insomnia-4000BF?style=for-the-badge&logo=insomnia&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
-## 📚 Atualmente estudando
 
-- Programação Orientada a Objetos (POO)
-- Collections
-- Streams
-- Maven
-- Docker
-- IntelliJ IDEA
+
+## 📈 Minha Jornada Java Backend
+
+Atualmente estou seguindo uma trilha estruturada de estudos para consolidar minha base em Java e evoluir até o desenvolvimento de aplicações backend robustas utilizando o ecossistema Spring.
+
+| Etapa | Status |
+|-------|--------|
+| ✅ Lógica de Programação | Concluído |
+| ✅ Java Fundamentos | Concluído (em revisão para consolidação) |
+| 🔄 Programação Orientada a Objetos | Em andamento |
+| 📅 Collections Framework | Próxima etapa |
+| 📅 Streams API | Próxima etapa |
+| ⏳ Tratamento de Exceções | Futuras etapas |
+| ⏳ SQL e PostgreSQL | Futuras etapas |
+| ⏳ Spring Boot | Futuras etapas |
+| ⏳ Spring Data JPA | Futuras etapas |
+| ⏳ Hibernate | Futuras etapas |
+| ⏳ Spring Security + JWT | Futuras etapas |
+| ⏳ Docker | Futuras etapas |
+| ⏳ JUnit + Mockito | Futuras etapas |
+| ⏳ RabbitMQ | Futuras etapas |
+| ⏳ Kafka | Futuras etapas |
+| ⏳ Redis | Futuras etapas |
+| ⏳ AWS | Futuras etapas |
+| ⏳ GitHub Actions | Futuras etapas |
+| ⏳ Microsserviços | Futuras etapas |
+
 
 ---
 
