@@ -1,13 +1,15 @@
-# 🚀 DevToCode
+<p align="center">
+  <img src="./assets/banner.png" alt="DevToCode Banner" width="100%" />
+</p>
 
 <p align="center">
   <b>Transformando conhecimento em soluções através da tecnologia e código limpo.</b>
 </p>
 
 <p align="center">
-  <a href="https://devtocode.co">🌐 Portfólio</a> •
-  <a href="https://www.linkedin.com/in/gersonluis/">💼 LinkedIn</a> •
-  <a href="mailto:devtocode.dev@gmail.com">📧 E-mail</a>
+  <a href="https://devtocode.co" target="_blank" rel="noopener noreferrer">🌐 Portfólio</a> •
+  <a href="https://www.linkedin.com/in/gersonluis/" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a> •
+  <a href="mailto:devtocode.dev@gmail.com" target="_blank" rel="noopener noreferrer">📧 E-mail</a>
 </p>
 
 ---
@@ -67,8 +69,8 @@ Durante a construção dos meus projetos, busco aplicar princípios fundamentais
 # 📊 Estatísticas do GitHub
 
 <p align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Dev-ToCode&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dev-ToCode&layout=compact&theme=dark"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=gersonluisoares&show_icons=true&theme=dark&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub" />
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gersonluisoares&layout=compact&theme=dark" alt="Linguagens mais usadas" />
 </p>
 
 ---
@@ -79,8 +81,8 @@ Aqui estão alguns dos principais projetos que desenvolvi para consolidar minha 
 
 | Projeto | Descrição | Tecnologias | Links |
 | :--- | :--- | :--- | :--- |
-| **Nome do Projeto 1** | Breve resumo de 1 ou 2 linhas sobre o que a aplicação faz e o problema que resolve. | `Java` `Spring Boot` `PostgreSQL` | [Repositório](#) • [Deploy](#) |
-| **Nome do Projeto 2** | Breve resumo de 1 ou 2 linhas sobre o que a aplicação faz e o problema que resolve. | `React` `TypeScript` `Vite` | [Repositório](#) • [Deploy](#) |
+| **Nome do Projeto 1** | Breve resumo de 1 ou 2 linhas sobre o que a aplicação faz e o problema que resolve. | `Java` `Spring Boot` `PostgreSQL` | <a href="#" target="_blank" rel="noopener noreferrer">Repositório</a> • <a href="#" target="_blank" rel="noopener noreferrer">Deploy</a> |
+| **Nome do Projeto 2** | Breve resumo de 1 ou 2 linhas sobre o que a aplicação faz e o problema que resolve. | `React` `TypeScript` `Vite` | <a href="#" target="_blank" rel="noopener noreferrer">Repositório</a> • <a href="#" target="_blank" rel="noopener noreferrer">Deploy</a> |
 
 ---
 
@@ -123,14 +125,14 @@ Organização dos meus estudos focados em consolidar uma base sólida e evoluir 
 # 📫 Vamos nos conectar?
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/gersonluis/" target="_blank">
+  <a href="https://www.linkedin.com/in/gersonluis/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
-  <a href="mailto:devtocode.dev@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/>
+  <a href="mailto:devtocode.dev@gmail.com" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/E--mail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail Badge"/>
   </a>
-  <a href="https://devtocode.co" target="_blank">
-    <img src="https://img.shields.io/badge/Website-100000?style=for-the-badge&logo=Globe&logoColor=white" alt="Website Badge"/>
+  <a href="https://devtocode.co" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Portfólio-100000?style=for-the-badge&logo=Globe&logoColor=white" alt="Portfólio Badge"/>
   </a>
 </p>
 
