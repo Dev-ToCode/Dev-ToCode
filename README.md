@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".frontend\assets\images\banner.png" alt="DevToCode Banner" width="100%" />
+  <img src="./frontend/assets/images/banner.png" alt="DevToCode Banner" width="100%" />
 </p>
 
 <p align="center">
