@@ -1,0 +1,32 @@
+:root {
+  --font-interface: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: "Sora", "Inter", system-ui, sans-serif;
+
+  --color-bg: #06070d;
+  --color-bg-soft: #0b0f1a;
+  --color-surface: rgba(13, 18, 30, 0.82);
+  --color-surface-strong: #101726;
+  --color-surface-muted: rgba(20, 28, 43, 0.92);
+  --color-text: #f6f8fb;
+  --color-text-soft: #b7c0cf;
+  --color-text-muted: #788397;
+  --color-line: rgba(188, 205, 231, 0.14);
+  --color-line-strong: rgba(116, 214, 255, 0.34);
+  --color-primary: #74d6ff;
+  --color-primary-dark: #19b8ff;
+  --color-accent: #9b8cff;
+  --color-accent-warm: #d9e4ff;
+  --color-spark: #43f4ff;
+  --color-pulse: #6d5dfc;
+  --color-ink: #03040a;
+
+  --shadow-soft: 0 24px 70px rgba(0, 0, 0, 0.28);
+  --shadow-hover: 0 32px 86px rgba(0, 0, 0, 0.36);
+  --glow-primary: 0 0 42px rgba(67, 244, 255, 0.16);
+  --glow-spark: 0 0 54px rgba(109, 93, 252, 0.14);
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --container: 1200px;
+  --section-padding: 120px;
+  --header-height: 80px;
+}
