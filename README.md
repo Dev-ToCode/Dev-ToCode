@@ -64,14 +64,6 @@ Durante a construção dos meus projetos, busco aplicar princípios fundamentais
 ![Insomnia](https://img.shields.io/badge/Insomnia-4000BF?style=for-the-badge&logo=insomnia&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
----
-
-# 📊 Estatísticas do GitHub
-
-<p align="center">
-  <img height="160em" src="https://github-readme-streak-stats.herokuapp.com/?user=gersonluisoares&theme=dark" alt="GitHub Streak" />
-  <img height="160em" src="https://github-readme-stats-git-masterrst-anuraghazra.vercel.app/api/top-langs/?username=gersonluisoares&layout=compact&theme=dark" alt="Linguagens mais usadas" />
-</p>
 
 ---
 
