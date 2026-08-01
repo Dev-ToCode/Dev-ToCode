@@ -69,8 +69,8 @@ Durante a construção dos meus projetos, busco aplicar princípios fundamentais
 # 📊 Estatísticas do GitHub
 
 <p align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=gersonluisoares&show_icons=true&theme=dark&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub" />
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gersonluisoares&layout=compact&theme=dark" alt="Linguagens mais usadas" />
+  <img height="160em" src="https://github-readme-streak-stats.herokuapp.com/?user=gersonluisoares&theme=dark" alt="GitHub Streak" />
+  <img height="160em" src="https://github-readme-stats-git-masterrst-anuraghazra.vercel.app/api/top-langs/?username=gersonluisoares&layout=compact&theme=dark" alt="Linguagens mais usadas" />
 </p>
 
 ---
@@ -138,4 +138,6 @@ Organização dos meus estudos focados em consolidar uma base sólida e evoluir 
 
 ---
 
-> *"A evolução acontece quando conhecimento, prática e consistência caminham juntos."*
+<p align="center">
+  <b>"A evolução acontece quando conhecimento, prática e consistência caminham juntos."</b>
+</p>
