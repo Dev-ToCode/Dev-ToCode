@@ -56,14 +56,14 @@ Durante a construção dos meus projetos, busco aplicar princípios fundamentais
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-### 🛠️ Ferramentas
+### 🛠️ Ferramentas & Hospedagem
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-131415?style=for-the-badge&logo=railway&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Insomnia](https://img.shields.io/badge/Insomnia-4000BF?style=for-the-badge&logo=insomnia&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-
 
 ---
 
@@ -73,8 +73,9 @@ Aqui estão alguns dos principais projetos que desenvolvi para consolidar minha 
 
 | Projeto | Descrição | Tecnologias | Links |
 | :--- | :--- | :--- | :--- |
-| **Nome do Projeto 1** | Breve resumo de 1 ou 2 linhas sobre o que a aplicação faz e o problema que resolve. | `Java` `Spring Boot` `PostgreSQL` | <a href="#" target="_blank" rel="noopener noreferrer">Repositório</a> • <a href="#" target="_blank" rel="noopener noreferrer">Deploy</a> |
-| **Nome do Projeto 2** | Breve resumo de 1 ou 2 linhas sobre o que a aplicação faz e o problema que resolve. | `React` `TypeScript` `Vite` | <a href="#" target="_blank" rel="noopener noreferrer">Repositório</a> • <a href="#" target="_blank" rel="noopener noreferrer">Deploy</a> |
+| **DevToCode Portfolio** | Plataforma de portfólio pessoal construída para entregar soluções funcionais, com controle administrativo e métricas. | `HTML5` `CSS3` `JavaScript` | <a href="https://github.com/Dev-ToCode/Dev-ToCode" target="_blank" rel="noopener noreferrer">Repositório</a> • <a href="https://devtocode.co" target="_blank" rel="noopener noreferrer">Deploy</a> |
+| **MyContacts** | Agenda de contatos via console desenvolvida para aplicar conceitos centrais de POO, tratamento de exceções e manipulação de coleções em Java. | `Java` `POO` | <a href="https://github.com/Dev-ToCode/MyContacts" target="_blank" rel="noopener noreferrer">Repositório</a> |
+| **DevToCode Hub** | Agrupador de links moderno desenvolvido para centralizar projetos, redes sociais e canais da marca em uma interface clean e responsiva. | `HTML5` `CSS3` `JavaScript` | <a href="https://github.com/Dev-ToCode/DevToCode-Hub" target="_blank" rel="noopener noreferrer">Repositório</a> |
 
 ---
 
